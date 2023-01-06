@@ -1,0 +1,61 @@
+/* .btn {
+    display: inline-block;
+    width: 15%;
+    background: grey;
+    border: 2px solid greenyellow;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.dislike-btn{
+    color: white !important;
+    border-radius: 3px;
+}
+
+.like-btn{
+    color: white !important;
+    border-radius: 3px;
+}
+
+.dislike-btn:hover{
+    background: red;
+    color: white;
+}
+
+.like-btn:hover{
+    background: green;
+    color: white;
+} */
+
+
+
+a.btn {
+    width: 12%;
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.25em;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: hwb(165 10% 27%);
+    cursor: pointer;
+    margin-left: 30px !important;
+    text-transform: uppercase;
+  }
+  
+  a.like-btn:hover {
+    background-color: #357a38;
+  }
+  
+  a.dislike-btn:hover {
+    background-color: red;
+  }
+
+  a.like-btn{
+    margin-left: 400px !important;
+  }
+
